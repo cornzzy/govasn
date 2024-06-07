@@ -122,8 +122,4 @@ for ip_range in "${IP_RANGES[@]}"; do
   block_ip_range $ip_range
 done
 
-# Save the iptables rules
-service iptables save
-
-# Print completion message
 echo "IP ranges blocked successfully."
