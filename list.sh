@@ -101,6 +101,7 @@ IP_RANGES=(
 	"185.41.0.0/24"
 	"185.41.1.0/24"
 	"185.41.2.0/24"
+ 	"94.101.190.224/28"
 )
 
 # Function to block traffic for a given IP range
